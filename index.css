@@ -1,0 +1,18 @@
+.message-input {
+  width: 1250px;
+  height: 35px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.btn {
+  margin-left: 15px;
+}
+
+.text-field {
+  border: solid 1px #333;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 350px;
+  width: 1250px;
+}
