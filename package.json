@@ -1,0 +1,24 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "orkhan": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gylman/socket.io.git"
+  },
+  "author": "Gylman & Orkhan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gylman/socket.io/issues"
+  },
+  "homepage": "https://github.com/gylman/socket.io#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
