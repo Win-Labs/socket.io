@@ -34,3 +34,10 @@ messages.forEach((message) => {
     messageRow(message.text, message.direction)
   );
 });
+
+document.querySelector(".form-send").addEventListener("submit", sendEmail);
+
+function sendEmail(event) {
+  event.preventDefault();
+  console.log("check");
+}
