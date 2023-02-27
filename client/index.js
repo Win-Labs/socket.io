@@ -23,7 +23,7 @@ const messagesBox = `<div class="messages-box"></div>`;
 
 const messageRow = (message, direction) =>
   direction === "sent"
-    ? `<div class="message-row"><p class="message">${message}</p></div>`
+    ? `<div class="message-row"><p class="message sent">${message}</p></div>`
     : `<div class="message-row received"><p class="message">${message}</p></div>`;
 
 afterBegin(select("body"), messagesBox);
